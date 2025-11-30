@@ -31,7 +31,7 @@ public class AddTodoServlet extends HttpServlet {
         session.setAttribute("todoList",todoList);
         response.setContentType("text/html");
         response.getWriter().println("The task has been added to the list.<br>");
-        response.getWriter().println("<a href='index_1.html'>Back to Home</a>");
+        response.getWriter().println("<a href='index.html'>Back to Home</a>");
 
     }
 }
